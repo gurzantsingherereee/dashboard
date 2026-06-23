@@ -1,0 +1,13 @@
+{
+  "name": "design-team-mern-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --parallel --filter design-dashboard-server --filter design-dashboard-client dev",
+    "dev:server": "pnpm --filter design-dashboard-server dev",
+    "dev:client": "pnpm --filter design-dashboard-client dev",
+    "build": "pnpm --filter design-dashboard-client build",
+    "start": "pnpm --filter design-dashboard-server start"
+  }
+}
